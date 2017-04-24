@@ -1,0 +1,28 @@
+.slider-container {
+  width: 500px;
+}
+
+.slider {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  overflow: hidden;
+}
+
+.thumbnails {
+  text-align: center;
+}
+.thumbnails ul {
+  list-style: none;
+}
+.thumbnails ul .active-thumb {
+  opacity: 1;
+}
+.thumbnails ul li {
+  display: inline-block;
+  opacity: 0.5;
+}
+.thumbnails ul li img {
+  width: 60px;
+  height: 40px;
+}

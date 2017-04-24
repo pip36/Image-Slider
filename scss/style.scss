@@ -1,0 +1,39 @@
+.slider-container{
+  width: 500px;
+}
+
+.slider{
+ 
+  width: inherit;
+  height: inherit;
+  position:relative;
+  overflow: hidden; 
+}
+
+.thumbnails{
+  text-align: center;
+  ul{
+    list-style: none;
+    .active-thumb{
+      opacity: 1;
+    }
+    li{
+      display: inline-block;
+      opacity: 0.5;
+      img{
+        width:60px;
+        height:40px;
+        
+      }
+    }
+  }
+}
+
+
+
+
+     
+    
+  
+
+
