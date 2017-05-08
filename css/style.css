@@ -1,5 +1,7 @@
 .slider-container {
   width: 500px;
+  margin-left: 100px;
+  float:left;
 }
 
 .slider {
@@ -25,4 +27,12 @@
 .thumbnails ul li img {
   width: 60px;
   height: 40px;
+}
+
+.img-message{
+  position:relative;
+  margin-top: -20px;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
