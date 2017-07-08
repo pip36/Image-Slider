@@ -27,7 +27,8 @@ function Slider(id){
     //Clone first and last images for smooth looping
     $(this.id + ' .images li').last().clone().prependTo($(this.id + ' .images'));
     $(this.id + ' .images li').eq(1).clone().appendTo($(this.id + ' .images'));
-    $(this.id + ' .images li').css({"margin-right": "-5px"});
+    //adjust margin for inline blocks
+    $(this.id + ' .images li').css({"margin-right": "-4px"});
 
     //change image when thumbnails are clicked
     this.sliderSelector.next().find("li").on("click", function(event){
